@@ -1,0 +1,25 @@
+body {
+  background-color: gray;
+}
+.App h1 {
+  text-align: center;
+  color:blue;
+}
+
+.movie img {
+  width: 300spx;
+  height: 300px;
+}
+.movie  {
+  text-align: center;
+  border: 1px solid black;
+  width:350px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.listmovies {
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
